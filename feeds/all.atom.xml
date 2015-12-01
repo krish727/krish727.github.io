@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-11-30T00:00:00+00:00</updated><entry><title>Set up of my first Pelican website</title><link href="/set-up-of-my-first-pelican-website.html" rel="alternate"></link><updated>2015-11-30T00:00:00+00:00</updated><author><name>Krishna Rao</name></author><id>tag:,2015-11-30:set-up-of-my-first-pelican-website.html</id><summary type="html">&lt;hr /&gt;
+&lt;h4&gt;Python 2.7.x in virtualenv with pyenv&lt;/h4&gt;
+&lt;p&gt;After an initial hiccup in setting up of the &lt;em&gt;virtualenv&lt;/em&gt; environment, I read the trend is more towards &lt;em&gt;pyenv&lt;/em&gt; and other wrappers around it.
+I ended up using this &lt;a href="http://cheng.logdown.com/posts/2015/05/30/install-python-on-centos-65"&gt;blog&lt;/a&gt; to setup &lt;em&gt;pyenv&lt;/em&gt; with python 
+2.7.10.  &lt;/p&gt;
+&lt;h4&gt;Installation/Setup of Pelican in virtual environment&lt;/h4&gt;
+&lt;p&gt;Once the virtual environment issue was resolved, now it was time to install &lt;em&gt;pelican&lt;/em&gt;. Installation itself was a breeze using the standard 
+installation document located &lt;a href="http://docs.getpelican.com/en/3.6.3/install.html"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;After installing &lt;em&gt;pelican&lt;/em&gt;, I installed the other supporting packages that are mentioned in the link and went ahead and did the 
+&lt;em&gt;pelican-quickstart&lt;/em&gt; command to do a quick start of the &lt;em&gt;pelican&lt;/em&gt; setup.&lt;/p&gt;
+&lt;p&gt;Next step was to follow this &lt;a href="http://docs.getpelican.com/en/3.6.3/content.html"&gt;link&lt;/a&gt; to create some basic pages to have a site up an running at the local webserver.&lt;/p&gt;
+&lt;p&gt;Now I wanted to customize my website with the themes for &lt;em&gt;pelican&lt;/em&gt; using the instructions that were provided &lt;a href="http://docs.getpelican.com/en/3.6.3/pelican-themes.html"&gt;here&lt;/a&gt;. After some experimentation with various themes, I settled on the &lt;strong&gt;octopress&lt;/strong&gt; theme (which might change in future) which is what this page is made with.&lt;/p&gt;
+&lt;p&gt;Finally I wanted to host this page at GitHub static page hosting site. Here I encountered the famous &lt;a href="http://stackoverflow.com/questions/27996017/pushing-to-git-returning-error-code-403-fatal"&gt;403&lt;/a&gt; problem. 
+I used this &lt;a href="http://sharadchhetri.com/2014/08/16/error-requested-url-returned-error-403-forbidden-accessing-github-repo/comment-page-1/"&gt;blog&lt;/a&gt; to get over the 403 problem.&lt;/p&gt;
+&lt;p&gt;It took me sometime to research all the things that I noted here but was impressed with all the things that are there to help out in creating a good looking website without much of design experience. Hopefully I will do some more experimentations with &lt;em&gt;pelican&lt;/em&gt; and post my findings here.&lt;/p&gt;
+&lt;p&gt;Till then..&lt;/p&gt;</summary><category term="python"></category><category term="pyenv"></category><category term="pelican"></category></entry></feed>
